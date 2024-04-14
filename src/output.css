@@ -594,27 +594,14 @@ video {
   right: 0px;
 }
 
-.row-auto {
-  grid-row: auto;
-}
-
-.m-36 {
-  margin: 9rem;
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
 }
 
 .mb-8 {
@@ -625,16 +612,8 @@ video {
   margin-left: 1.25rem;
 }
 
-.mr-10 {
-  margin-right: 2.5rem;
-}
-
 .flex {
   display: flex;
-}
-
-.grid {
-  display: grid;
 }
 
 .h-60 {
@@ -662,22 +641,6 @@ video {
   max-width: 1024px;
 }
 
-.max-w-screen-sm {
-  max-width: 640px;
-}
-
-.max-w-full {
-  max-width: 100%;
-}
-
-.grid-flow-row {
-  grid-auto-flow: row;
-}
-
-.flex-row {
-  flex-direction: row;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -686,24 +649,12 @@ video {
   align-items: center;
 }
 
-.justify-start {
-  justify-content: flex-start;
-}
-
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-items-start {
-  justify-items: start;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -716,25 +667,6 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.25rem * var(--tw-space-x-reverse));
   margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-96 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(24rem * var(--tw-space-x-reverse));
-  margin-left: calc(24rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.self-auto {
-  align-self: auto;
-}
-
-.self-start {
-  align-self: flex-start;
-}
-
-.bg-lime-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(217 249 157 / var(--tw-bg-opacity));
 }
 
 .bg-slate-200 {
@@ -760,19 +692,14 @@ video {
   padding: 9rem;
 }
 
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .pb-10 {
@@ -806,11 +733,6 @@ video {
     margin-left: 0.25rem;
     margin-right: 0.25rem;
   }
-
-  .md\:px-1 {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -818,21 +740,11 @@ video {
     margin-left: 3.5rem;
     margin-right: 3.5rem;
   }
-
-  .lg\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-  }
 }
 
 @media (min-width: 1280px) {
   .xl\:mx-28 {
     margin-left: 7rem;
     margin-right: 7rem;
-  }
-
-  .xl\:px-28 {
-    padding-left: 7rem;
-    padding-right: 7rem;
   }
 }
