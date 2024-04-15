@@ -724,6 +724,11 @@ video {
   color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
+.text-clementine-orange {
+  --tw-text-opacity: 1;
+  color: rgb(255 118 77 / var(--tw-text-opacity));
+}
+
 .hover\:font-serif:hover {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
