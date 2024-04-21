@@ -696,6 +696,22 @@ video {
   height: 18rem;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-\[580px\] {
+  height: 580px;
+}
+
+.h-\[450px\] {
+  height: 450px;
+}
+
 .w-auto {
   width: auto;
 }
