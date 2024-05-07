@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./output.css">
-    <title>Home - Hart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Learn more about Ableton - maker of Live and Push | Ableton</title>
 </head>
-<body class="bg-slate-200 px-1 md:px-1 lg:px-14 xl:px-28">
+<body class="bg-slate-200 mx-1 md:mx-1 lg:mx-14 xl:mx-28">
     <div class="mx-auto bg-white">
-    <nav class="flex justify-between px-4">
-        <div class="flex space-x-4">
+    <nav class="flex justify-between px-4 items-center">
+        <div class="flex items-center space-x-4">
         <a>
             <img src="./imgs/abletonlive-svgrepo-com.png" alt="Logo" width="50">
         </a>
@@ -22,7 +25,7 @@
         <a href="">More +</a>
         </div>
         <div class="flex justify-between">
-        <a href="">Try Live 12 for free</a>
+        <a href="" class="text-deep-blue font-sans font-semibold">Try Live 12 for free</a>
         <a href="">Log out</a>
         </div>
     </nav>
@@ -30,35 +33,51 @@
         <a class="ml-5" href="">About</a>
         <a href="">Jobs</a>
     </nav>
-    <header>
-        <img class="container max-w-screen-lg mx-auto pb-10" src="./imgs/man-computer.jpg" alt="" width="content">
+    <header class="px-10 relative">
+        <img class="container left-0 right-0 max-w-[1440px] mx-auto pb-10" src="./imgs/man-computer - Copy.jpg" alt="" width="content">
+            <div class="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center">
+                <h1 class="text-clementine-orange text-9xl font-regular font-josefin-sans">Abelton</h1>
+            </div>
     </header>
     <section class="flex flex-col items-center justify-center">
-        <article class="max-w-2xl mb-8">
+        <article class="m-16 leading-loose">
             <div class="text-justify">
-                <p class="text-2xl">
-                We make <a href="" class="text-blue-600 font-sans hover:font-serif">Live</a>,
-                <a href="" class="text-blue-600">Push</a>
-                <a href="" class="text-blue-600">Note</a>
+                <p class="max-w-2xl text-2xl leading-9 font-medium pb-5">
+                We make <a href="" class="text-deep-blue font-sans hover:font-serif">Live</a>,
+                <a href="" class="text-deep-blue">Push</a>,
+                <a href="" class="text-deep-blue">Note</a>
                 and
-                <a href="" class="text-blue-600">Link</a>
+                <a href="" class="text-deep-blue">Link</a>
                 - unique software and hardware of music creation and performance. With these products, our community of users creates amazing things.
                 </p>
-                <p>Ableton was founded in 1999 and released the first version of LIve in 2001. Our products are used by a community of dedicated musicians,
+                <p class="max-w-3xl">Ableton was founded in 1999 and released the first version of LIve in 2001. Our products are used by a community of dedicated musicians,
                 sound designers, and artists from across the world.
                 </p>
             </div>
         </article>
         </section>
-        <section class="flex items-center space-x-96">
-            <div class="absolute mr-10">
-                <img class="w-auto h-80" src="./imgs/denisse-leon-n4BDkIEls78-unsplash.jpg" alt="sound board image">
+        <section class="flex justify-end">
+            <div class="flex items-center relative">
+                <div class="absolute left-[-580px]">
+                    <img class="w-auto h-[700px]" src="./imgs/soudBoard-copy.jpg" alt="sound board image">
+                </div>
+                <div class="flex bg-pale-yellow pl-[240px] pr-[130px] py-[280px] min-w-max">
+                    <img class="h-[400px] min-w-max" src="./imgs/peopleInOffice.jpg" alt="lady pointing at board">
+                </div>
             </div>
-            <div class="bg-lime-200 p-36 min-w-max">
-                <img class="h-60 min-w-max" src="./imgs/peopleInOffice.jpg" alt="lady walking left">
+        </section>
+        <section class="flex justify-center">
+            <div class="max-w-2xl m-16">
+                <p class="text-2xl leading-9 font-medium p-6">Making music isn't easy. It takes time, effort, and learning. But when you're in the flow, itn's incredibly rewarding.</p>
+                <p class="">We feel the same way about making Ableton prducts. The driving force behind Ableton is our passion for what we make, and the people we make it for.</p>
+                <video>
+                    <source>
+                </video>
+                <p class="text-2xl leading-9 font-medium p-6">We are more than 350 people from 20 different countries divided between our headquarters in Berlin and our offfices in Los Angeles and Tokyo.</p>
+                <p>Most of us are active musicians, producers, and DJs, and many of us use Live and Push eveery day. We come from a wide range of cultural and professional backgrounds. Some of us have PhDs, some are self-taught, and most of us are somewhere in between. What connects us is the shared belief that each of us has the skills and knowledge to contribute to something big: helping to shape the future of music culture.</p>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <script></script>
     </div>
 </body>
